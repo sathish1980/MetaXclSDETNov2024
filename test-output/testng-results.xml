@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-22T06:38:15 IST" name="Default suite" finished-at="2024-11-22T06:38:30 IST" duration-ms="14869">
+  <suite started-at="2024-11-26T06:27:29 IST" name="Default suite" finished-at="2024-11-26T06:27:35 IST" duration-ms="6162">
     <groups>
     </groups>
-    <test started-at="2024-11-22T06:38:15 IST" name="Default test" finished-at="2024-11-22T06:38:30 IST" duration-ms="14869">
-      <class name="TestingBasics.scroll">
-        <test-method signature="launch()[pri:0, instance:TestingBasics.scroll@1a482e36]" started-at="2024-11-22T06:38:15 IST" name="launch" finished-at="2024-11-22T06:38:30 IST" duration-ms="14832" status="PASS">
+    <test started-at="2024-11-26T06:27:29 IST" name="Default test" finished-at="2024-11-26T06:27:35 IST" duration-ms="6162">
+      <class name="TestingBasics.Upload">
+        <test-method signature="uploadfile()[pri:0, instance:TestingBasics.Upload@1b7cc17c]" started-at="2024-11-26T06:27:29 IST" name="uploadfile" finished-at="2024-11-26T06:27:35 IST" duration-ms="6121" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-      </class> <!-- TestingBasics.scroll -->
+        </test-method> <!-- uploadfile -->
+      </class> <!-- TestingBasics.Upload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

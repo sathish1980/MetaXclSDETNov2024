@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestingBasics.mousehandlings">
+      <class name="TestingBasics.WebTable">
         <methods>
-          <include name="dragandDrop"/>
+          <include name="WH"/>
         </methods>
-      </class> <!-- TestingBasics.mousehandlings -->
+      </class> <!-- TestingBasics.WebTable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
