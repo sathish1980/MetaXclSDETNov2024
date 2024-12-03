@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestingBasics.WebTable">
+      <class name="TestNgCommands.TestNgcomands">
         <methods>
-          <include name="WH"/>
+          <include name="testcase3"/>
+          <include name="afs"/>
+          <include name="aft"/>
+          <include name="Bfs"/>
+          <include name="bft"/>
         </methods>
-      </class> <!-- TestingBasics.WebTable -->
+      </class> <!-- TestNgCommands.TestNgcomands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
