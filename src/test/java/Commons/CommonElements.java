@@ -30,7 +30,7 @@ public class CommonElements {
 			element.sendKeys(TexttoBeEnter);
 		}
 	}
-	public void ClickOnButton(WebElement element)
+	public static void ClickOnButton(WebElement element)
 	{
 		if(element.isDisplayed())
 		{
@@ -56,31 +56,49 @@ public class CommonElements {
 		return null;
 	}
 
-	public void WaitforelementTobeVisible(WebDriver driver, By element)
+	public static void WaitforelementTobeVisible(WebDriver driver, By element)
 	{
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(60));
 		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(element));
 
 	}
 
-	public void WaitforelementTobeClickable(WebDriver driver, WebElement element)
+	public static void WaitforelementTobeClickable(WebDriver driver, WebElement element)
 	{
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(60));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 
 	}
 
-	public void ClickOnBackButton(WebDriver driver)
+	public static void ClickOnBackButton(WebDriver driver)
 	{
 		driver.navigate().back();
 	}
 
-	public String getScreenshot(WebDriver driver, String fileName) throws IOException
+	public static String getScreenshot(WebDriver driver, String fileName) throws IOException
 	{
 		TakesScreenshot ts =(TakesScreenshot)driver;
 		File SourceFile =ts.getScreenshotAs(OutputType.FILE);
 		File DestinationFile = new File(System.getProperty("user.dir")+"//Screenshot//"+fileName+".png");
 		FileUtils.copyFile(SourceFile,DestinationFile);
 		return DestinationFile.toString();
+	}
+	
+	public static String GetText(WebElement element)
+	{
+		if(element.isDisplayed())
+		{
+			return element.getText();
+		}
+		return null;
+	}
+	
+	public static String GetAttribute(WebElement element,String attribute)
+	{
+		if(element.isDisplayed())
+		{
+			return element.getAttribute(attribute);
+		}
+		return null;
 	}
 }

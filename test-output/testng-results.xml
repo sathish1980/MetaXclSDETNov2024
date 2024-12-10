@@ -1,37 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-03T06:25:06 IST" name="Default suite" finished-at="2024-12-03T06:25:08 IST" duration-ms="2230">
+  <suite started-at="2024-12-10T06:32:30 IST" name="Suite" finished-at="2024-12-10T06:33:06 IST" duration-ms="35928">
     <groups>
     </groups>
-    <test started-at="2024-12-03T06:25:06 IST" name="Default test" finished-at="2024-12-03T06:25:08 IST" duration-ms="2230">
+    <test started-at="2024-12-10T06:32:30 IST" name="Test" finished-at="2024-12-10T06:33:06 IST" duration-ms="35928">
       <class name="Testcases.MakeMyTripFlighSearch">
-        <test-method is-config="true" signature="Launch()[pri:0, instance:Testcases.MakeMyTripFlighSearch@411f53a0]" started-at="2024-12-03T06:25:03 IST" name="Launch" finished-at="2024-12-03T06:25:06 IST" duration-ms="2371" status="PASS">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:28 IST" name="Launch" finished-at="2024-12-10T06:32:30 IST" duration-ms="2490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch -->
-        <test-method is-config="true" signature="EnterUrl()[pri:0, instance:Testcases.MakeMyTripFlighSearch@411f53a0]" started-at="2024-12-03T06:25:06 IST" name="EnterUrl" finished-at="2024-12-03T06:25:07 IST" duration-ms="928" status="PASS">
+        <test-method is-config="true" signature="EnterUrl()[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:30 IST" name="EnterUrl" finished-at="2024-12-10T06:32:31 IST" duration-ms="1220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterUrl -->
-        <test-method is-config="true" signature="ClosePopup()[pri:0, instance:Testcases.MakeMyTripFlighSearch@411f53a0]" started-at="2024-12-03T06:25:07 IST" name="ClosePopup" finished-at="2024-12-03T06:25:08 IST" duration-ms="1268" status="PASS">
+        <test-method is-config="true" signature="ClosePopup()[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:31 IST" name="ClosePopup" finished-at="2024-12-10T06:32:33 IST" duration-ms="1611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosePopup -->
-        <test-method signature="SearchWithSameLocation()[pri:0, instance:Testcases.MakeMyTripFlighSearch@411f53a0]" started-at="2024-12-03T06:25:08 IST" name="SearchWithSameLocation" finished-at="2024-12-03T06:25:08 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchWithSameLocation -->
-        <test-method signature="SearchWithValidFlightDetails()[pri:0, instance:Testcases.MakeMyTripFlighSearch@411f53a0]" started-at="2024-12-03T06:25:08 IST" name="SearchWithValidFlightDetails" finished-at="2024-12-03T06:25:08 IST" duration-ms="1" status="PASS">
+        <test-method signature="SearchWithValidFlightDetails(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:34 IST" name="SearchWithValidFlightDetails" data-provider="GetValidSearchTestData" finished-at="2024-12-10T06:32:41 IST" duration-ms="7521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchWithValidFlightDetails -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Testcases.MakeMyTripFlighSearch@411f53a0]" started-at="2024-12-03T06:25:08 IST" name="CloseBrowser" finished-at="2024-12-03T06:25:08 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:41 IST" name="WriteInReport" finished-at="2024-12-10T06:32:42 IST" duration-ms="594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithValidFlightDetails status=SUCCESS method=MakeMyTripFlighSearch.SearchWithValidFlightDetails(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithValidFlightDetails(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:42 IST" name="SearchWithValidFlightDetails" data-provider="GetValidSearchTestData" finished-at="2024-12-10T06:32:52 IST" duration-ms="9846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidFlightDetails -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:52 IST" name="WriteInReport" finished-at="2024-12-10T06:32:52 IST" duration-ms="534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithValidFlightDetails status=SUCCESS method=MakeMyTripFlighSearch.SearchWithValidFlightDetails(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithValidFlightDetails(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:32:52 IST" name="SearchWithValidFlightDetails" data-provider="GetValidSearchTestData" finished-at="2024-12-10T06:33:02 IST" duration-ms="9597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithValidFlightDetails -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:33:02 IST" name="WriteInReport" finished-at="2024-12-10T06:33:02 IST" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithValidFlightDetails status=SUCCESS method=MakeMyTripFlighSearch.SearchWithValidFlightDetails(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithSameLocation(java.lang.String,java.lang.String)[pri:1, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:33:02 IST" name="SearchWithSameLocation" data-provider="GetSameCitySearchTestData" finished-at="2024-12-10T06:33:05 IST" duration-ms="2159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameLocation -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:33:05 IST" name="WriteInReport" finished-at="2024-12-10T06:33:05 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithSameLocation status=SUCCESS method=MakeMyTripFlighSearch.SearchWithSameLocation(java.lang.String,java.lang.String)[pri:1, instance:Testcases.MakeMyTripFlighSearch@c730b35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method signature="SearchWithSameLocation(java.lang.String,java.lang.String)[pri:1, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:33:05 IST" name="SearchWithSameLocation" data-provider="GetSameCitySearchTestData" finished-at="2024-12-10T06:33:06 IST" duration-ms="776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameLocation -->
+        <test-method is-config="true" signature="WriteInReport(org.testng.ITestResult)[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:33:06 IST" name="WriteInReport" finished-at="2024-12-10T06:33:06 IST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithSameLocation status=SUCCESS method=MakeMyTripFlighSearch.SearchWithSameLocation(java.lang.String,java.lang.String)[pri:1, instance:Testcases.MakeMyTripFlighSearch@c730b35] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteInReport -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Testcases.MakeMyTripFlighSearch@c730b35]" started-at="2024-12-10T06:33:06 IST" name="CloseBrowser" finished-at="2024-12-10T06:33:07 IST" duration-ms="1038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- Testcases.MakeMyTripFlighSearch -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
